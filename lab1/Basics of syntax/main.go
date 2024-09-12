@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	//1
 	fmt.Println("Hello, World")
 
@@ -20,9 +20,9 @@ func main(){
 	fmt.Scan(&num)
 	if num > 0 {
 		fmt.Println("Positive")
-	}else if num < 0{
+	} else if num < 0 {
 		fmt.Println("Negative")
-	}else{
+	} else {
 		fmt.Println("Zero")
 	}
 
@@ -55,10 +55,10 @@ func main(){
 		fmt.Println("There is no such day")
 	}
 
-	//functions
+	//4
 	fmt.Println(add(4, 5))
 
-	swap := func(a string, b string) (string, string){
+	swap := func(a string, b string) (string, string) {
 		return b, a
 	}
 
@@ -68,10 +68,10 @@ func main(){
 
 }
 
-func add(a int, b int) int{
+func add(a int, b int) int {
 	return a + b
 }
 
-func quot_remain(a int, b int) (int, int){
-	return a/b, a%b
+func quot_remain(a int, b int) (int, int) {
+	return a / b, a % b
 }
