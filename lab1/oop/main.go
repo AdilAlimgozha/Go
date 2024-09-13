@@ -60,9 +60,9 @@ func PrintArea(s Shape) {
 //4
 
 type Product struct {
-	Name     string
-	Price    float64
-	Quantity int
+	Name     string  `json:"product_name"`
+	Price    float64 `json:"product_price"`
+	Quantity int     `json:"product_quantity"`
 }
 
 func convertToJson(prod Product) string {
