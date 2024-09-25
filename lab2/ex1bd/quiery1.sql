@@ -1,0 +1,3 @@
+/*CREATE DATABASE GoLab3*/
+
+DROP TABLE users
