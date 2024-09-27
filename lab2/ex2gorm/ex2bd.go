@@ -29,6 +29,7 @@ func main() {
 	db.Create(&User{Name: "Alex", Age: 26})
 	db.Create(&User{Name: "Adil", Age: 21})
 
+	// Select all users
 	var users []User
 	result := db.Find(&users)
 
