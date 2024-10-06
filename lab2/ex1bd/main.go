@@ -76,7 +76,7 @@ func selectAll(db *sql.DB) {
 }
 
 func main() {
-	// Capture connection properties.
+	// Connection
 	cfg := "user=postgres password=Adilek2003alimgozha dbname=golab3 host=localhost sslmode=disable"
 	// Get a database handle.
 	db, err := sql.Open("postgres", cfg)
